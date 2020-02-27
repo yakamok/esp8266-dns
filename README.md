@@ -2,7 +2,7 @@
 
 Featured on [Hackaday](https://hackaday.com/2015/07/01/dns-tunneling-with-an-esp8266/)  
 
-# BTwifi & fon (and other hotspots) as a free transport of IOT device data using dns tunneling
+### BTwifi & fon (and other hotspots) as a free transport of IOT device data using dns tunneling
 _2015-06-25_
 
 The idea was inspired by a set of events in which breaking free from being firewalled and a desperate need to gain Internet access. This is when I remembered from years ago someone came up with a way to bypass the login screens on pay as you go mobile Internet sticks. I began to research the methods used and eventually ended up coming across a package in the Debian repo called Iodine, created by Kyro(kyro.se). This program allows you to create an ipv4 over DNS tunnel. So when I got my first 2 ESP8266's it seemed obvious what should happen next with the two technologies.
@@ -23,7 +23,7 @@ then a nameserver record that points to the sub domain:
 
 Ok so now we have somewhere for our requests to go, but now we need a fake dns server to pick the requests up, so a simple python server to capture and parse the requests into useful data for us to use.
 
-# dns udp server
+### dns udp server
 		import socket
 		from dnslib import DNSRecord
 
