@@ -63,4 +63,4 @@ When we make the request it will be sent to ns.example.com because other DNS ser
 
 We place zz1 and xx1 as markers for the parser to separate out the data from the request easily, after this its up to you to choose what you do with the data, but this should open up a lot more possibilities for where you place your esp.
 
-__This is a proof of concept and is only for educational purposes, i am not responsible for shit!__
+__This is a proof of concept and is only for educational purposes!__
